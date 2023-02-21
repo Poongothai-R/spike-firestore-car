@@ -34,6 +34,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Firebase Cloud Firestore</h1>
+      <h2>Create and Read document in Firestore</h2>
       {status === 0 && <p>Loading... </p>}
       {status === 1 && <CarsPage data={data} setModal={setModal}/>}
       {status === 2 && <p>Error</p>}

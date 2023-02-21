@@ -16,3 +16,5 @@ export async function readDocuments(collectionName) {
 
   return result;
 }
+
+

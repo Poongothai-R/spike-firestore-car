@@ -1,0 +1,33 @@
+.modal_form {
+    width: 320px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.modal_form h1 {
+    text-align: center;
+    font-size: 25px;
+    color: darkgoldenrod;
+}
+button {
+    display: block;
+    margin: 10px auto;
+    background-color: #d9d9d9;
+    color:#000000;
+}
+.modal-form label {
+    width: 100px;
+    height: 30px;
+    text-align: right;
+}
+
+.modal-form input
+{
+    width: 350px;
+    height: 30px;
+}
+@media (min-width: 550px) {
+    .modal-form {
+        width: 500px;
+    }
+}

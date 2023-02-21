@@ -13,7 +13,7 @@ export default function CarsPage({ data , setModal}) {
       {Items}
         <button onClick={() =>
             setModal(
-                <ModalForm/>
+                <ModalForm setModal={setModal}/>
             )
         }>Add New Car</button>
     </div>

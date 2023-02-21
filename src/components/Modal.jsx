@@ -1,4 +1,5 @@
 import { createPortal } from "react-dom";
+import "./modal.css";
 
 export default function Modal({ modalState }) {
     const [modal, setModal] = modalState;
