@@ -34,9 +34,9 @@ export default function App() {
   return (
     <div className="App">
       <h1>Firebase Cloud Firestore</h1>
-      {status === 0 && <p>Loading... ⏲️</p>}
+      {status === 0 && <p>Loading... </p>}
       {status === 1 && <CarsPage data={data} setModal={setModal}/>}
-      {status === 2 && <p>Error ❌</p>}
+      {status === 2 && <p>Error</p>}
       <Modal modalState={[modal, setModal]}  />
     </div>
   );
